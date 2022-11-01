@@ -607,8 +607,8 @@ Patch0251: 0251-Reimplement-boot_counter.patch
 BuildRequires:	gcc efi-srpm-macros
 BuildRequires:	flex bison binutils python3
 BuildRequires:	ncurses-devel xz-devel bzip2-devel
-BuildRequires:	freetype-devel libusb-devel
-BuildRequires:	rpm-devel
+BuildRequires:	freetype-devel
+BuildRequires:	fuse-devel
 BuildRequires:	rpm-devel rpm-libs
 BuildRequires:	autoconf automake autogen device-mapper-devel
 BuildRequires:	freetype-devel gettext-devel git
