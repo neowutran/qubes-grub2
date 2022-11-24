@@ -1,5 +1,8 @@
 %undefine _hardened_build
 
+%global _default_patch_fuzz 
+# NEOWUTRAN: Allow fuzz patching      
+
 %global tarversion @VERSION@
 %undefine _missing_build_ids_terminate_build
 %global _configure_gnuconfig_hack 0
