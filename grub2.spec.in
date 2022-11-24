@@ -1,6 +1,6 @@
 %undefine _hardened_build
 
-%global _default_patch_fuzz 
+%global _default_patch_fuzz 2
 # NEOWUTRAN: Allow fuzz patching      
 
 %global tarversion @VERSION@
